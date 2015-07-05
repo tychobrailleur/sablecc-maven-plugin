@@ -2,7 +2,7 @@ package org.codehaus.mojo.sablecc;
 
 /*
  * Copyright 2005 The Codehaus.
- * Copyright 2012 Sebastien Le Callonnec
+ * Copyright 2012,2015 Sebastien Le Callonnec.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 
-/**x
+/**
  * A plugin for processing grammar files in SableCC.
  *
  * @goal generate
@@ -78,7 +78,7 @@ public class SableCCMojo extends AbstractMojo
     /**
      * The extension of the grammar files.
      * <p>The default value is <tt>.grammar</tt>.
-     * @parameter 
+     * @parameter
      */
     private String[] extensions = new String[] { ".grammar" };
 
