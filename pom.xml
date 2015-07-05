@@ -9,7 +9,7 @@
   <artifactId>sablecc-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <name>Maven 2 SableCC Plugin</name>
-  <version>2.3-SNAPSHOT</version>
+  <version>2.4-SNAPSHOT</version>
 
   <issueManagement>
     <system>jira</system>
